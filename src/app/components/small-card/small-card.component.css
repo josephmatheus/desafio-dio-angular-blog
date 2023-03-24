@@ -1,0 +1,33 @@
+.small-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.small-card-container .small-card__photo {
+    width: 30%;
+}
+
+.small-card-container .small-card__photo img {
+    width: 100%;
+}
+
+.small-card-container .small-card__title {
+    width: 60%;
+}
+
+.small-card-container .small-card__title h2 {
+    font-size: 20px;
+}
+
+hr {
+    opacity: .1;
+    width: 95%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+}
